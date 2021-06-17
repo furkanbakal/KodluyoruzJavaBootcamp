@@ -23,6 +23,9 @@ public class Main {
 		int ortalama=toplam/6;
 		
 		System.out.println("Ortalama not: "+ortalama);
+		
+		String mesaj =(ortalama>60 ? "geçtiniz" : "Kaldýnýz");
+		System.out.println(mesaj);
 	}
 
 }
