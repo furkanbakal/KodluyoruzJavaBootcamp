@@ -33,7 +33,7 @@ public class Main {
 					System.out.println("Þifreniz eski þifre ile ayný olamaz!");
 				}
 				else if(!newPassword.equals("12345")){
-					password=newPassword;
+					// password=newPassword;
 					System.out.println("Þifreniz baþarýyla deðiþtirild.");
 				}
 				
